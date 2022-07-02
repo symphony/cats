@@ -9,6 +9,9 @@ const breedDetailsFromFile = function(breed, callback) {
   });
 };
 
+export default breedDetailsFromFile;
+
+// = test runner =
 const printData = data => {
   console.log('Return Value: ', data);
 };

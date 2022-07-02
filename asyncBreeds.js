@@ -1,5 +1,5 @@
 // asyncBreeds.js
-const fs = require('fs');
+import fs from 'fs';
 
 const breedDetailsFromFile = function(breed, callback) {
   console.log('breedDetailsFromFile: Calling readFile...');
